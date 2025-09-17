@@ -1,7 +1,7 @@
 import UserModel from './user.model.js';
 import jwt from 'jsonwebtoken';
 import UserRepository from './user.repository.js';
-import bcrypt from 'bcrypt';
+import bcryptjs from 'bcryptjs';
 
 export default class UserController {
 
