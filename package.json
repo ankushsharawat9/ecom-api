@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "APIs for E-commerce application",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "build": "npm rebuild bcrypt --build-from-source"
+}
+,
   "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.0",
+    "bcryptjs": "^3.0.2",
     "dotenv": "^16.3.1",
     "express": "^4.21.2",
     "express-basic-auth": "^1.2.1",
